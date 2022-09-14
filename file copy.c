@@ -3,8 +3,8 @@ int main()
 {
       int ch;
       FILE *fp,*fq;
-      fp=fopen("VV.txt","r");
-      fq=fopen("VVR.txt","w");   
+      fp=fopen("samba.txt","r");
+      fq=fopen("sambacopy.txt","w");   
       if(fp==NULL||fq==NULL)
             printf("File does not exist..");
       else
